@@ -15,11 +15,11 @@ public class Humain {
 		return nom;
 	}
 	
-	public int getArgentPossede() {
+	public int getArgentPossede() { //pas nécessaire car argentPossede protégé
 		return argentPossede;
 	}
 	
-	public void setArgentPossede(int argentPossede) {
+	public void setArgentPossede(int argentPossede) { //pas nécessaire car argentPossede protégé
 		this.argentPossede = argentPossede;
 	}
 
