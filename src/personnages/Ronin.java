@@ -3,6 +3,7 @@ package personnages;
 public class Ronin extends Humain {
 	
 	private int honneur = 1;
+	private int force = 2* honneur;
 
 	public Ronin(String nom, String favBoisson, int argentPossede) {
 		super(nom, favBoisson, argentPossede);
@@ -14,4 +15,6 @@ public class Ronin extends Humain {
 		parler(beneficiaire.getNom() + " prend ces " + argentADonner + " sous.");
 		beneficiaire.recevoirArgent(argentADonner);
 	}
+	
+
 }

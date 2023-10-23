@@ -20,4 +20,11 @@ public class Yakuza extends Humain {
 		parler("J'ai pique les " + argentVole + " sous de " + victime.getNom() + ", ce qui me fait " + argentPossede
 				+ " sous dans ma poche. Hi ! Hi !");
 	}
+	
+	public int perdre(){
+		int argentPerdu = argentPossede;
+		argentPossede = 0;
+		reputation--;	//FINIR
+	}
+	
 }
