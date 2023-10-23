@@ -15,7 +15,11 @@ public class Commercant extends Humain {
 	
 	public void recevoirArgent(int argent) {
 		argentPossede += argent;
-		parler(argent + " sous ! Je te remercie genereux donateur!");
+		if(argent != 0) {
+			parler(argent + " sous ! Je te remercie genereux donateur!");
+		}else {
+			parler("0 sous ! C'est pas comme ca que je vais devenir riche...");
+		}
 	}
 	
 }
