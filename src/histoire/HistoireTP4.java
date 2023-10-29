@@ -27,15 +27,19 @@ public class HistoireTP4 {
 		
 		//Histoire 3
 		
-//		Yakuza yaku = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
+		Yakuza yaku = new Yakuza("Yaku Le Noir", "whisky", 45, "Warsong");
 //		yaku.direBonjour();
 //		yaku.extorquer(marco);
 		
 		//Histoire 4
 		
 		Ronin roro = new Ronin("Roro", "shochu", 60);
+//		
+//		roro.direBonjour();
+//		roro.donner(marco);
 		
-		roro.direBonjour();
-		roro.donner(marco);
+		//Histoire 5
+		
+		roro.provoquer(yaku);
 	}
 }
