@@ -90,7 +90,7 @@ public class Humain {
 			}
 			parler("Je connais beaucoup de monde dont : " + connaissances);
 		}else {
-			System.out.println("je ne connais personne");
+			parler("je ne connais personne");
 		}
 	}
 	
